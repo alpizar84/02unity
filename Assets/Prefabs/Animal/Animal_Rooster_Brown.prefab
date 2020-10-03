@@ -783,9 +783,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4749638658899663891}
   - component: {fileID: 4749638658908958067}
+  - component: {fileID: 8085223944340505050}
   - component: {fileID: 9178118925932858733}
   - component: {fileID: 7727051049334230645}
-  - component: {fileID: -8935742712328362840}
   - component: {fileID: 3570245822811707042}
   m_Layer: 0
   m_Name: Animal_Rooster_Brown
@@ -835,6 +835,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8085223944340505050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4749638658899549347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb76a48fa0b239f458f084e7ad071102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &9178118925932858733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -858,18 +870,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c546c2666fd72bd43a3938c5263c71bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &-8935742712328362840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4749638658899549347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e19d982988ff6847a9af615744b11b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &3570245822811707042

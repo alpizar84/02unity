@@ -22,7 +22,11 @@ public class DestroyOutBounds : MonoBehaviour
             Destroy(gameObject);
         }
         
+        if (transform.position.z > topBound || transform.position.z < lowerBound)
+        {
+            Destroy(gameObject);
+        }
+        
     }
-    
     
 }
